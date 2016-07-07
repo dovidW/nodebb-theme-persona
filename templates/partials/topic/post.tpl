@@ -1,5 +1,5 @@
 <div class="clearfix post-header">
-	<div class="icon pull-left">
+	<div class="icon pull-right">
 		<a href="<!-- IF posts.user.userslug -->{config.relative_path}/user/{posts.user.userslug}<!-- ELSE -->#<!-- ENDIF posts.user.userslug -->">
 			<!-- IF posts.user.picture -->
 			<img component="user/picture" data-uid="{posts.user.uid}" src="{posts.user.picture}" align="left" itemprop="image" />
@@ -11,7 +11,7 @@
 		</a>
 	</div>
 
-	<small class="pull-left">
+	<small class="pull-right">
 		<strong>
 			<a href="<!-- IF posts.user.userslug -->{config.relative_path}/user/{posts.user.userslug}<!-- ELSE -->#<!-- ENDIF posts.user.userslug -->" itemprop="author" data-username="{posts.user.username}" data-uid="{posts.user.uid}">{posts.user.username}</a>
 		</strong>
@@ -58,7 +58,7 @@
 	<div component="post/signature" data-uid="{posts.user.uid}" class="post-signature">{posts.user.signature}</div>
 	<!-- ENDIF posts.user.signature -->
 
-	<small class="pull-right">
+	<small class="pull-left">
 		<span class="post-tools">
 			<a component="post/reply" href="#" class="no-select <!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->">[[topic:reply]]</a>
 			<a component="post/quote" href="#" class="no-select <!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->">[[topic:quote]]</a>

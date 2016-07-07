@@ -5,7 +5,7 @@
 		<meta itemprop="name" content="{function.stripTags, title}">
 
 		<div class="col-md-7 col-sm-9 col-xs-10 content">
-			<div class="avatar pull-left" title="{topics.user.username}">
+			<div class="avatar pull-right" title="{topics.user.username}">
 				<!-- IF showSelect -->
 				<div class="select" component="topic/select">
 					<!-- IF topics.thumb -->

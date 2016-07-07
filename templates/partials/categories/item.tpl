@@ -2,7 +2,7 @@
 	<meta itemprop="name" content="{../name}">
 
 	<div class="col-md-7 col-sm-9 col-xs-12 content">
-		<div class="icon pull-left" style="{function.generateCategoryBackground}">
+		<div class="icon pull-right" style="{function.generateCategoryBackground}">
 			<i class="fa fa-fw {../icon}"></i>
 		</div>
 
@@ -17,7 +17,7 @@
 			{function.generateChildrenCategories}
 			<!-- ENDIF !config.hideSubCategories -->
 		</h2>
-		<span class="visible-xs pull-right">
+		<span class="visible-xs pull-left">
 			<a class="permalink" href="{../teaser.url}">
 				<small class="timeago" title="{../teaser.timestampISO}"></small>
 			</a>

@@ -1,10 +1,10 @@
 <div class="recent">
 
 	<div class="clearfix">
-		<div class="pull-left">
+		<div class="pull-right">
 		<!-- IMPORT partials/breadcrumbs.tpl -->
 		</div>
-		<div class="pull-right">
+		<div class="pull-left">
 			<!-- IF loggedIn -->
 			<button id="new_topic" class="btn btn-primary">[[category:new_topic_button]]</button>
 			<!-- ELSE -->
